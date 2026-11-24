@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+main {
+  max-width: 1184px;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+  font-family: "Gelasio", sans-serif;
+  margin-left: -15px;
+}
+
+section {
+  position: relative;
+  width: 700px;
+  height: 325px;
+  margin: 0 auto;
+  
+}
+
+section div {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 10px;
+}
+section div h4{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+section img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  /* Scales down the @2x high-res logo to standard size */
+  height: auto;
+}
+
+ #l1{
+  top: 0%;
+  right: 58%;
+
+}
+
+#l2{
+  top: 20%;
+  right:65%;
+
+}
+#l3{
+  top: 40%;
+  right: 68%;
+}
+
+#l4{
+  top: 60%;
+  right: 63%;
+}
+#l5{
+  top: 80%;
+  right: 60%;
+}
+
+#l6{
+  top: 0%;
+  left: 58%;
+
+}
+#l7{
+  top: 20%;
+  left:65%;
+}
+#l8{
+  top: 40%;
+  left: 68%;
+}
+#l9{
+  top: 60%;
+  left: 63%;
+}
+#l10{
+  top: 80%;
+  left: 60%;
+}
+
+.country select{
+  padding: 10px;
+  width: 500px;
+}
+
+.read{
+  padding: 10px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 16px;
+  border: 1px solid rgb(209, 206, 206);
+}
